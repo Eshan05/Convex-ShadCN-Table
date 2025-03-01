@@ -51,7 +51,7 @@ const data = {
     },
     {
       title: 'FAQs',
-      url: '#',
+      url: '/',
       icon: FileQuestionIcon,
     },
   ],
