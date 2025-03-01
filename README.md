@@ -21,3 +21,7 @@
 3. [Multiselect component](https://shadcn-multi-select-component.vercel.app/)
 4. [Sign up form](https://ui.indie-starter.dev/form-builder)
 5. [ShadCN Date Picker](https://time.rdsx.dev/)
+
+## Contributions & Issues
+
+Highly welcomed!
