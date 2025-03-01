@@ -60,6 +60,10 @@ export default function EventForm({
           },
         }
       : {
+          name: '',
+          description: '',
+          location: '',
+          arrivingTime: '',
           isPublic: true,
           totalParticipants: 0,
           updatedAt: Date.now(),
@@ -67,8 +71,8 @@ export default function EventForm({
           status: 'draft',
           coordinatorIds: [],
           eligibilityCriteria: {
-            requiredCGPA: undefined,
-            maxBacklogs: undefined,
+            requiredCGPA: '' as unknown as number,
+            maxBacklogs: '' as unknown as number,
             allowedDepartments: [],
             allowedBatches: [2026],
           },
@@ -122,7 +126,7 @@ export default function EventForm({
         }
       } else {
         const newEventId = await createEventMutation(dataForConvex)
-        toast.success('Event created successfully!' + newEventId)
+        toast.success('Event created successfully!')
       }
     } catch (error) {
       console.error('Error creating event:', error)
