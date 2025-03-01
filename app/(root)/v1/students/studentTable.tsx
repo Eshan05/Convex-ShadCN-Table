@@ -63,14 +63,14 @@ export default function TableStudents() {
           <RotateCcwIcon className="w-4 h-4" /> <span>Refresh</span>
         </Button> */}
         <Button
-          onClick={() => exportToCSV(convexStudents)}
+          onClick={() => exportToCSV(transformedStudents)}
           variant='outline'
           className='flex items-center space-x-2'
         >
           <DatabaseIcon className='w-4 h-4' /> <span>Export CSV</span>
         </Button>
         <Button
-          onClick={() => exportToJSON(convexStudents)}
+          onClick={() => exportToJSON(transformedStudents)}
           variant='outline'
           className='flex items-center space-x-2'
         >

@@ -6,14 +6,14 @@ import { useRouter } from 'next/navigation'
 export const { auth, signIn, signOut, store, isAuthenticated } = convexAuth({
   providers: [
     Password(),
-    Google({
-      profile(googleProfile) {
-        return {
-          id: googleProfile.sub,
-          email: googleProfile.email,
-          name: googleProfile.name,
-        }
-      },
-    }),
+    // Google({
+    //   profile(googleProfile) {
+    //     return {
+    //       id: googleProfile.sub,
+    //       email: googleProfile.email,
+    //       name: googleProfile.name,
+    //     }
+    //   },
+    // }),
   ],
 })

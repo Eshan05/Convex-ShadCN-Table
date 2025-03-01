@@ -57,6 +57,7 @@ const SecondForm: React.FC<SecondFormProps> = ({ form }) => {
                     const val = e.target.value
                     field.onChange(val)
                   }}
+                  min={2}
                 />
               </FormControl>
               <FormMessage />
@@ -80,6 +81,7 @@ const SecondForm: React.FC<SecondFormProps> = ({ form }) => {
                     const val = e.target.value
                     field.onChange(val)
                   }}
+                  min={2}
                 />
               </FormControl>
               <FormMessage />
@@ -96,6 +98,7 @@ const SecondForm: React.FC<SecondFormProps> = ({ form }) => {
                 <Input
                   placeholder='Last Name'
                   name='last_name'
+                  min={2}
                   type={'text'}
                   value={field.value || ''}
                   onChange={(e) => {

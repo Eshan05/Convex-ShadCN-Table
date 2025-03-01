@@ -256,7 +256,7 @@ export function MultiStepViewer({
               type='button'
               variant={'outline'}
               onClick={handleNext}
-              disabled={true}
+              // disabled={true}
             >
               Next
             </Button>
