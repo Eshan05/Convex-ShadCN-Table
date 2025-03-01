@@ -78,7 +78,7 @@ const items: AccordionItem[] = [
 
 export default function AccordionComponent() {
   return (
-    <div className='space-y-4 w-full'>
+    <div className='space-y-4 w-60 md:w-[unset]'>
       <Accordion type='single' collapsible className='w-full' defaultValue='3'>
         {items.map((item) => (
           <AccordionItem value={item.id} key={item.id} className='py-2'>
