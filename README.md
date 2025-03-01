@@ -16,11 +16,14 @@
 
 ## Acknowledgements
 
+I didn't know how to implement it hence why, I made this
+
 1. ShadCN and Radix UI
 2. Tanstack Table and Zod and `react-hook-form`
 3. [Multiselect component](https://shadcn-multi-select-component.vercel.app/)
 4. [Sign up form](https://ui.indie-starter.dev/form-builder)
 5. [ShadCN Date Picker](https://time.rdsx.dev/)
+6. [Password Compare](https://github.com/shadcn-ui/ui/pull/3452)
 
 ## Contributions & Issues
 
