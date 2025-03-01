@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/(login|sign-in|signin)",
+      "destination": "/auth/sign-in",
+      "permanent": true
+    },
+    {
+      "source": "/(register|sign-up|signup)",
+      "destination": "/auth/register",
+      "permanent": true
+    }
+  ]
+}
